@@ -18,7 +18,7 @@ public class AnalyticsService {
     @Autowired
     private DisasterRepo disasterRepo;
     
-    // 1. Get yearly trends
+    
     public List<TimeTrendDTO> getYearlyTrends() {
         List<Object[]> results = disasterRepo.getYearlyTrends();
         List<TimeTrendDTO> trends = new ArrayList<>();
@@ -33,7 +33,7 @@ public class AnalyticsService {
         return trends;
     }
     
-    // 2. Get economic impact by disaster type
+
     public List<EconomicImpactDTO> getEconomicImpactByType() {
         List<Object[]> results = disasterRepo.getEconomicImpactByType();
         List<EconomicImpactDTO> impacts = new ArrayList<>();
@@ -49,7 +49,7 @@ public class AnalyticsService {
         return impacts;
     }
     
-    // 3. Get seasonal patterns
+   
     public List<SeasonalPatternDTO> getSeasonalPatterns() {
         List<Object[]> results = disasterRepo.getSeasonalPatterns();
         List<SeasonalPatternDTO> patterns = new ArrayList<>();
@@ -64,12 +64,11 @@ public class AnalyticsService {
         return patterns;
     }
     
-    // 4. Get deadliest countries (returns Object array for now)
+   
     public List<Object[]> getDeadliestCountries() {
         return disasterRepo.getDeadliestCountries();
     }
     
-    // 5. Get decade trends (returns Object array for now)
     public List<Object[]> getDecadeTrends() {
         return disasterRepo.getDecadeTrends();
     }
