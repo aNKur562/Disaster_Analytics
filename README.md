@@ -45,3 +45,40 @@ A comprehensive backend API for analyzing historical disaster data (1900-present
 ### Database Setup
 ```sql
 CREATE DATABASE crisis_db;
+
+
+
+##
+📁 Project Structure
+Disaster_Analytics/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/crisisconnect/disastermanagement/
+│   │   │       ├── DisasterManagementApplication.java
+│   │   │       ├── controller/
+│   │   │       │   ├── DisasterController.java
+│   │   │       │   └── AnalyticsController.java
+│   │   │       ├── service/
+│   │   │       │   ├── DisasterService.java
+│   │   │       │   └── AnalyticsService.java
+│   │   │       ├── repository/
+│   │   │       │   └── DisasterRepo.java
+│   │   │       ├── entity/
+│   │   │       │   └── DisasterEntity.java
+│   │   │       └── dto/
+│   │   │           ├── DisasterResponseDTO.java
+│   │   │           ├── EconomicImpactDTO.java
+│   │   │           ├── SeasonalPatternDTO.java
+│   │   │           └── TimeTrendDTO.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── application-example.properties
+│   │       └── application-dev.properties
+│   └── test/
+│       └── java/
+│           └── com/crisisconnect/disastermanagement/
+│               └── DisasterManagementApplicationTests.java
+├── pom.xml
+├── .gitignore
+└── README.md
