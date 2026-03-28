@@ -1,13 +1,13 @@
 # 🌍 Disaster Analytics Platform
 
-A comprehensive backend API for analyzing historical disaster data (1900-present) from the UN/CRED EM-DAT database. Built with Spring Boot and PostgreSQL.
+A  backend API for analyzing historical disaster data (1900-present) from the UN/CRED EM-DAT database. Built with Spring Boot and PostgreSQL.
 
 ## 🚀 Tech Stack
 
 - **Java 17** | **Spring Boot 3.x**
-- **PostgreSQL** - Real disaster records
-- **Spring Data JPA** - Repository layer
-- **Maven** - Dependency management
+- **PostgreSQL**
+- **Spring Data JPA**
+- **Maven**
 
 ## 📊 Database
 
@@ -41,15 +41,13 @@ A comprehensive backend API for analyzing historical disaster data (1900-present
 - Java 17+
 - PostgreSQL 14+
 - Maven
-
 ### Database Setup
 ```sql
 CREATE DATABASE crisis_db;
+```
+Update with your PostgreSQL credentials(username and password)
 
-
-
-##
-📁 Project Structure
+### 📁 Project Structure
 Disaster_Analytics/
 ├── src/
 │   ├── main/
@@ -82,3 +80,5 @@ Disaster_Analytics/
 ├── pom.xml
 ├── .gitignore
 └── README.md
+### Run the Application
+mvn spring-boot:run
