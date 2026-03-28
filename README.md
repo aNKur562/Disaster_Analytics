@@ -48,6 +48,7 @@ CREATE DATABASE crisis_db;
 Update with your PostgreSQL credentials(username and password)
 
 ### 📁 Project Structure
+```
 Disaster_Analytics/
 ├── src/
 │   ├── main/
@@ -80,5 +81,6 @@ Disaster_Analytics/
 ├── pom.xml
 ├── .gitignore
 └── README.md
+```
 ### Run the Application
 mvn spring-boot:run
