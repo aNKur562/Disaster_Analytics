@@ -91,21 +91,17 @@ mvn spring-boot:run
 ## 🔮 **Future Enhancements**
 
 ### **Security**
-- [ ] JWT Authentication with role-based access
+JWT Authentication with role-based access
  
 ### **Frontend Visualization**
-- [ ] **React Dashboard**
-  - Real-time charts (Recharts)
-  - Interactive maps (Leaflet.js)
-  - Disaster hotspots visualization
-  - Country-wise filtering
+**React Dashboard**
+ Dashboard for data visualization using charts and maps (Leaflet.js)
 
-### **Phase 3: Performance**
-- [ ] Redis caching for frequently accessed queries
-- [ ] Docker containerization
-- [ ] CI/CD pipeline (GitHub Actions)
+### **Performance**
+Docker-based deployment
 
-### **Phase 4: Advanced Analytics**
-- [ ] Predictive modeling (ML integration)
-- [ ] Export reports (PDF/CSV)
-- [ ] Email alerts for new data
+
+### **Analytics**
+Basic predictive insights using machine learning
+Export reports (PDF/CSV)
+
