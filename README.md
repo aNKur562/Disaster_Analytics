@@ -83,4 +83,6 @@ Disaster_Analytics/
 └── README.md
 ```
 ### Run the Application
+```
 mvn spring-boot:run
+```
